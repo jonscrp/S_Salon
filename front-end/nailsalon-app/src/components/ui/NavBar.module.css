@@ -1,0 +1,45 @@
+.NavBarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+}
+
+.NavBarContainer > .NavBar {
+    display: flex;
+    justify-content: center;
+}
+
+.NavBarContainer> .NavBar >ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBarContainer> h1  {
+    text-align: center;
+    margin: 3px;
+    padding : 6px;  
+}
+
+
+.NavBar > ul > li {
+    margin: 1px;
+    padding : 3px;
+    float:left;
+}
+
+/* Change the color of links on hover */
+.NavBar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .NavBar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  
