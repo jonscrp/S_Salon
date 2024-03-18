@@ -32,10 +32,9 @@ function App() {
     fetchData();
   })
   */
-  
 
   return (
-    <>
+    <div className='app'>
      
       <BrowserRouter>
         <NavBar></NavBar>
@@ -51,7 +50,7 @@ function App() {
       </BrowserRouter>
       <Footer></Footer>
 
-    </>
+    </div>
   );
 }
 

@@ -16,10 +16,9 @@ function Home() {
     const [containerStyles, setcontainerStyles] = useState(
         {
             position: 'center',
-            minWidth: window.innerWidth,
-            minHeight: window.innerHeight*.60,
-            width: '2000px',
-            height: '700px',
+            width: window.innerWidth,
+            height: window.innerHeight*.30,
+    
             margin: '0 auto',
         })
 
@@ -30,10 +29,8 @@ function Home() {
         const handleResize = () => {
             setcontainerStyles({
                 position: 'center',
-                minWidth: '800px',
-                minHeight: '300px',
                 width: window.innerWidth,
-                height: modifiedHeight,
+                height: modifiedHeight*.30,
                 margin: '0 auto',
             })
             console.log("handleResize");

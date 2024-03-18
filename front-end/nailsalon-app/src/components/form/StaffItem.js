@@ -29,7 +29,7 @@ function StaffItem(props) {
             <div style={staffElementStyles}>
             <p >Staff Name:{props.name}</p>
             <p >Specialty:{props.specialty}</p>
-            <p >Email: joeSam@NailSalon.com:{props.email}</p>
+            <p >Email: :{props.email}</p>
             <button type="button" style={{fontSize:"45px", margin:"20px", padding:"23px", borderRadius:"56px"}}>Book Appointment</button>
             </div>
         </div>

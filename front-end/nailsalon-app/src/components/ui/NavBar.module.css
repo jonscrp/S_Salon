@@ -1,18 +1,25 @@
 .NavBarContainer {
     display: flex;
+    font-size: 3em;
     flex-direction: column;
     justify-content: center;
     position: relative;
+    background-color: pink;
+ 
+
 
 }
 
 .NavBarContainer > .NavBar {
+
     display: flex;
     justify-content: center;
+   
 }
 
 .NavBarContainer> .NavBar >ul {
     list-style-type: none;
+    font-size: 1em;
     margin: 0;
     padding: 0;
 }
