@@ -20,6 +20,26 @@ The website allows you to book an appointment with a staff member. Check their a
 
 1. Your white paper should explain how you implemented concepts in visual hierarchy, grouping, and similarity in your design
 
+
+Home 
+    Image Slider
+
+Booking
+    Staff List
+
+
+Services
+    
+
+Gallery
+    Image Slide(incomplete)
+
+
+About Us
+    Embeded map 
+
+
+
 2. Your white paper should take another website (that already exists on the web) and analyze it based on the above (i.e. answer all the questions [1a-1o] for your competitors website as well), creating a wireframe for it as well. You may use just thier homepage for their wireframe. You may use a tool to build the wireframe
 
 3. Your website should have at least four pages (all hosted locally, that can be accessed from one another).  You must create a wireframe for each page

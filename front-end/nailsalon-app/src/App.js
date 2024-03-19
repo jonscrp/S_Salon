@@ -10,7 +10,7 @@ import AboutUs from './pages/AboutUs'
 import Booking from './pages/Booking'
 import NavBar from './components/ui/NavBar';
 import Footer from './components/ui/Footer'
-import { useState, useEffect } from 'react';
+//import { useState, useEffect } from 'react';
 
 
 
